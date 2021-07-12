@@ -24,14 +24,14 @@ body {
   background: #261935;
 }
 #main {
-  background: url(/images/background.jpg) no-repeat center center fixed;
+  background: url(../images/background.jpg) no-repeat center center fixed;
   background-size: cover;
   width: 100%;
   height: 100vh;
   z-index: 1;
 }
 .katman {
-  background: url(/images/katman.png) no-repeat center center;
+  background: url(../images/katman.png) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -112,6 +112,7 @@ body {
   font-size: 3em;
   line-height: 60px;
   font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
 }
 .maintext h1 {
   display: block;
@@ -160,12 +161,11 @@ body {
   flex-direction: column;
   width: 100%;
   height: auto;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 10px;
   font-family: "Poppins", sans-serif !important;
 }
 #about h2 {
-  font-size: 32pt;
+  font-size: 28pt;
   color: #ff9c00;
   text-align: center;
   padding-bottom: 0.5em;
@@ -213,9 +213,9 @@ body {
   text-align: center;
   line-height: 50px;
   transition: 0.3s;
-  margin-top: 1.5em;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 100px;
 }
 .button:hover {
   color: white;
@@ -232,25 +232,31 @@ body {
 }
 #works {
   width: 100%;
-  height: 100vh;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 #works h2 {
-  font-size: 32pt;
+  font-size: 28pt;
   color: #ff9c00;
   text-align: center;
   padding-bottom: 0.5em;
   font-family: "Poppins", sans-serif !important;
   font-weight: bold;
+  padding-bottom: 40px;
 }
 .carousel {
-  width: 70%;
-  height: auto;
+  width: 75%;
   margin: 0 auto;
 }
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.705);
+.carousel-control-next-icon {
+  filter: invert(50%);
+}
+.carousel-control-prev-icon {
+  filter: invert(50%);
+}
+.carousel-indicators {
+  filter: invert(50%);
 }
 .foooter {
   background: #141414;
@@ -328,6 +334,7 @@ body {
     align-items: center;
     left: 100px;
     right: 100px;
+    top: 150px;
   }
   .menus {
     display: none;
@@ -390,5 +397,12 @@ body {
   .maintext p {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  .button {
+    font-size: 0.9em;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
