@@ -345,6 +345,136 @@ body {
           filter: invert(50%);
 }
 
+#contact {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact h2 {
+  font-size: 28pt;
+  color: #ff9c00;
+  text-align: center;
+  padding-bottom: 0.5em;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact input {
+  background-color: transparent;
+  outline: none;
+  border: 2px #ff9c00 solid;
+  width: 350px;
+  height: 35px;
+  border-radius: 100px;
+  color: #ffa800;
+  padding-left: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#contact input:focus {
+  width: 400px;
+  -webkit-filter: drop-shadow(0px 0px 40px #ff9c00);
+          filter: drop-shadow(0px 0px 40px #ff9c00);
+  border: 3px #ff9c00 solid;
+  color: white;
+}
+
+#contact input::-webkit-input-placeholder {
+  color: #b1b1b1;
+}
+
+#contact input:-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+#contact input::-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+#contact input::placeholder {
+  color: #b1b1b1;
+}
+
+#contact textarea {
+  resize: none;
+  border: 2px #ffa800 solid;
+  background-color: transparent;
+  padding-left: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+  border-radius: 20px;
+  outline: none;
+  color: #ffa800;
+}
+
+#contact textarea:focus {
+  width: 400px;
+  -webkit-filter: drop-shadow(0px 0px 40px #ff9c00);
+          filter: drop-shadow(0px 0px 40px #ff9c00);
+  border: 3px #ff9c00 solid;
+  color: white;
+}
+
+#contact textarea::-webkit-input-placeholder {
+  color: #b1b1b1;
+}
+
+#contact textarea:-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+#contact textarea::-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+#contact textarea::placeholder {
+  color: #b1b1b1;
+}
+
+#contact input:nth-child(4) {
+  background-color: #ffa800;
+  color: white;
+  font-weight: bolder;
+  height: 45px;
+  font-size: 20pt;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif !important;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.603);
+  cursor: pointer;
+}
+
+#contact input:nth-child(4):focus {
+  width: 400px;
+  -webkit-filter: drop-shadow(0px 0px 4px #ff9c00);
+          filter: drop-shadow(0px 0px 4px #ff9c00);
+  color: white;
+}
+
 .foooter {
   background: #141414;
   padding: 30px 0px;
@@ -512,6 +642,24 @@ body {
   .maintext {
     left: 25px;
     right: 25px;
+  }
+  #contact input {
+    width: 270px;
+  }
+  #contact input:focus {
+    width: 280px;
+  }
+  #contact textarea {
+    width: 270px;
+  }
+  #contact textarea:focus {
+    width: 280px;
+  }
+  #contact input:nth-child(4) {
+    width: 270px;
+  }
+  #contact input:nth-child(4):focus {
+    width: 280px;
   }
 }
 
